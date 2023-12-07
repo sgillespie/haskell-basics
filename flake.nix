@@ -30,6 +30,6 @@
 
         flake = project.flake {};
     in pkgs.lib.recursiveUpdate flake {
-      packages.default = flake.packages."hello:exe:hello";
+      packages.default = flake.packages."haskell-basics:exe:haskell-basics";
     });
 }
