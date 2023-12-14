@@ -12,7 +12,7 @@ To install on Linux, macOS, FreeBSD or WSL2
 }
 ```
 
-#### Your ghcup tui should look like the following (only the green checkmarks are important)
+#### Your ghcup tui should look like the following (only the double green checkmarks are important)
 ![ghcup_tui_example](doc/ghcup_tui_example.png)
 
 
