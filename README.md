@@ -6,8 +6,15 @@ To install on Linux, macOS, FreeBSD or WSL2
 ```bash 
 {
   curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh;
-  source ~/.bashrc; # if you installed to bashrc
+  source ~/.bashrc; `# if you installed to bashrc`
+  ghcup tui; 
+  `# use i to install and s to set`
 }
+```
+
+#### Your ghcup tui should look like the following (only the green checkmarks are important)
+image here
+
 
 ## Installation Tips:
 ```bash
@@ -16,4 +23,9 @@ ghcup tui
 
 # if you opened the repl ghci use :quit to exit
 
+```
+
+## Running the program
+```
+cabal run < LICENSE
 ```
