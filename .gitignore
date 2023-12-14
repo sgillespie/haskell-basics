@@ -13,3 +13,6 @@ result
 
 # Pandoc
 doc/slides.html
+
+# ignore mac file
+.DS_Store
