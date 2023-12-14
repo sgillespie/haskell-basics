@@ -13,7 +13,7 @@ To install on Linux, macOS, FreeBSD or WSL2
 ```
 
 #### Your ghcup tui should look like the following (only the green checkmarks are important)
-image here
+![ghcup_tui_example](doc/ghcup_tui_example.png)
 
 
 ## Installation Tips:
