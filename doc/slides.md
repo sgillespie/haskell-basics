@@ -67,7 +67,7 @@ Notable Applications
  * Pandoc - https://pandoc.org [github-link](https://github.com/jgm/pandoc)
  * XMonad - https://xmonad.org [github-link](https://github.com/xmonad/xmonad)
  * Agda
- * Cardano Blockchain - https://cardano.org [github-link](https://github.com/cardano-foundation/cardano-wallet)
+ * Cardano Blockchain - https://cardano.org [github-link](https://github.com/input-output-hk/cardano-node)
 
 # Further Resources
 
