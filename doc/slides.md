@@ -46,7 +46,7 @@ Mutating Global State is Discouraged
 
 ---
 
-Advantanges
+Advantages
 
  * Type safety / correctness
  * Compilers, interpreters, parsers
@@ -56,7 +56,7 @@ Advantanges
 
 Haskell Disadvantages
 
- * Steep learning rurve
+ * Steep learning curve
  * Extensions frequently change
  * Performance can be unpredictable
 
@@ -64,10 +64,10 @@ Haskell Disadvantages
 
 Notable Applications
 
- * Pandoc
- * XMonad
- * Agda
- * Cardano Blockchain
+ * Pandoc - https://pandoc.org [github-link](https://github.com/jgm/pandoc)
+ * XMonad - https://xmonad.org [github-link](https://github.com/xmonad/xmonad)
+ * Agda - https://wiki.portal.chalmers.se/agda/pmwiki.php [github-link](https://github.com/agda/agda)
+ * Cardano Blockchain - https://cardano.org [github-link](https://github.com/input-output-hk/cardano-node)
 
 # Further Resources
 
@@ -97,3 +97,4 @@ Source Code
  * [Haskell Language Server](https://github.com/haskell/haskell-language-server)
  * [GHC](https://gitlab.haskell.org/ghc/ghc)
  * [Aeson](https://github.com/haskell/aeson)
+
