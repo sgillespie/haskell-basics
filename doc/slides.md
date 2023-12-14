@@ -61,9 +61,39 @@ Haskell Disadvantages
  * Performance can be unpredictable
 
 ---
+
 Notable Applications
 
  * Pandoc
  * XMonad
  * Agda
  * Cardano Blockchain
+
+# Further Resources
+
+---
+
+Functional Programming
+
+ * [F# for fun and profit](https://fsharpforfunandprofit.com/)
+ * [Fantasy Land](https://github.com/fantasyland/fantasy-land)
+ * [Typeclassopedia](https://wiki.haskell.org/Typeclassopedia)
+ * [Lambda the Ultimate Pattern Factory](https://github.com/thma/LtuPatternFactory)
+
+---
+
+Haskell
+
+ * [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/)
+ * [Haskell Programming from First Principles](https://haskellbook.com/)
+ * [Haskell Community](https://www.haskell.org/community/)
+ * [What I Wish I Knew When Learning Haskell](https://github.com/sdiehl/wiwinwlh/blob/master/tutorial.md)
+
+---
+
+Source Code
+
+ * [Fourmolu](https://github.com/fourmolu/fourmolu)
+ * [Haskell Language Server](https://github.com/haskell/haskell-language-server)
+ * [GHC](https://gitlab.haskell.org/ghc/ghc)
+ * [Aeson](https://github.com/haskell/aeson)
