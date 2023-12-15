@@ -97,4 +97,5 @@ Source Code
  * [Haskell Language Server](https://github.com/haskell/haskell-language-server)
  * [GHC](https://gitlab.haskell.org/ghc/ghc)
  * [Aeson](https://github.com/haskell/aeson)
+ * [hoogle](https://github.com/ndmitchell/hoogle)
 
