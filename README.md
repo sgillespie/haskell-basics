@@ -43,5 +43,8 @@ ls -p /etc | grep -v / | tr '\n' '\t' | fold -s > tmp; cabal run < tmp; rm tmp
 #### compare to `column -t` - which sometimes gives a column: line too long error.
 ```
 ls -p /etc | grep -v / | tr '\n' '\t' | fold -s > tmp; column -t < tmp; rm tmp
-
 ```
+
+## Slides
+more useful links and information can be found in the presentation here: [slides](/doc/slides.md)
+
