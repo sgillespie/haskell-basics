@@ -26,6 +26,13 @@ ghcup tui
 ```
 
 ## Running the program
+
+#### convert a license to a column format
 ```
 cabal run < LICENSE
+```
+
+#### get only files from /etc ... but leave them in a column format
+```
+ls -p /etc | grep -v / | tr '\n' '\t' | fold -s > tmp; cabal run < tmp; rm tmp
 ```
