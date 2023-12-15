@@ -1,6 +1,9 @@
 # haskell-basics
 Talk: Intro to Haskell, for Jax.Ex
 
+## Description
+This application currently reproduces with haskell the behavior of -t flag of the column linux utility: `column -t`.
+
 ## Installation
 To install on Linux, macOS, FreeBSD or WSL2
 ```bash 
@@ -35,4 +38,10 @@ cabal run < LICENSE
 #### get only files from /etc ... but leave them in a column format
 ```
 ls -p /etc | grep -v / | tr '\n' '\t' | fold -s > tmp; cabal run < tmp; rm tmp
+```
+
+#### compare to `column -t` - which sometimes gives a column: line too long error.
+```
+ls -p /etc | grep -v / | tr '\n' '\t' | fold -s > tmp; column -t < tmp; rm tmp
+
 ```
