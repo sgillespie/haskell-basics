@@ -88,6 +88,7 @@ Haskell
  * [Haskell Programming from First Principles](https://haskellbook.com/)
  * [Haskell Community](https://www.haskell.org/community/)
  * [What I Wish I Knew When Learning Haskell](https://github.com/sdiehl/wiwinwlh/blob/master/tutorial.md)
+ * [What parts are mature in the haskell Ecosystem and what parts should I find elsewhere as of 2022](https://github.com/Gabriella439/post-rfc/blob/main/sotu.md)
 
 ---
 
