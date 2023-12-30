@@ -16,6 +16,12 @@
           src = ./.;
           compiler-nix-name = "ghc963";
 
+          flake.variants = {
+            ghc928 = {
+              compiler-nix-name = pkgs.lib.mkForce "ghc928";
+            };
+          };
+
           shell.tools = {
             cabal = {};
             fourmolu = {};
@@ -31,6 +37,6 @@
 
         flake = project.flake {};
     in pkgs.lib.recursiveUpdate flake {
-      packages.default = flake.packages."haskell-basics:exe:haskell-basics";
+      packages.default = flake.packages."columnate:exe:columnate";
     });
 }

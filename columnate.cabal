@@ -16,7 +16,7 @@ build-type:         Simple
 common warnings
     ghc-options: -Wall
     build-depends:
-      base ^>=4.18.1.0,
+      base >=4.16.0.0 && <5,
       text
 
 library
@@ -24,8 +24,6 @@ library
     exposed-modules:
       Data.Columnate
       Data.Columnate.Types
-    build-depends:
-      base ^>=4.18.1.0,
     hs-source-dirs:   src
     default-language: GHC2021
 
@@ -33,7 +31,6 @@ executable columnate
     import:           warnings
     main-is:          Main.hs
     build-depends:
-        base ^>=4.18.1.0,
         columnate
     hs-source-dirs:   app
     default-language: GHC2021
