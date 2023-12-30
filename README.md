@@ -47,12 +47,12 @@ More examples
 
 ## Building the Slides
 
-More useful links and information can be found in the [slides](/doc/slides.md).
+More useful links and information can be found in the [slides](/docs/slides.html).
 
 The presentation can be build with [Pandoc](https://pandoc.org/)
 
-    pandoc -t dzslides -s doc/slides.md -o doc/slides.html
+    pandoc -t dzslides -s docs/slides.md -o docs/slides.html
 
 Open the presentation with your favorite browser
 
-    xdg-open doc/slides.html
+    xdg-open docs/slides.html
