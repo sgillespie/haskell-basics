@@ -1,8 +1,10 @@
 cabal-version:      3.0
-name:               haskell-basics
+name:               columnate
 version:            0.1.0.0
-synopsis:           A simple project
-description:        A simple project
+synopsis:           An sample CLI utility that formats input as a table
+description:
+  An introductory Haskell project. This is a command line application that formats its
+  inputs into multiple columns, as a table.
 homepage:           https://github.com/sgillespie/haskell-basics
 license:            MIT
 license-file:       LICENSE
@@ -27,11 +29,11 @@ library
     hs-source-dirs:   src
     default-language: GHC2021
 
-executable haskell-basics
+executable columnate
     import:           warnings
     main-is:          Main.hs
     build-depends:
         base ^>=4.18.1.0,
-        haskell-basics
+        columnate
     hs-source-dirs:   app
     default-language: GHC2021

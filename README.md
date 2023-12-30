@@ -1,50 +1,50 @@
-# haskell-basics
-Talk: Intro to Haskell, for Jax.Ex
+# Haskell Basics
 
-## Description
-This application currently reproduces with haskell the behavior of -t flag of the column linux utility: `column -t`.
+> Talk: Intro to Haskell, for Jax.Ex
+
+An introductory Haskell project. This is a command line application that formats its
+inputs into multiple columns, as a table. It is a clone of the unix utility `column`
+in table mode.
+
+## Getting Started
+
+This project requires:
+
+  * [GHC](https://www.haskell.org/ghc/) >= 9
+  * [Cabal](https://www.haskell.org/cabal/) >= 3
+
+The recommended way to install GHC and Cabal is via [GHCup](https://www.haskell.org/ghcup/)
 
 ## Installation
-To install on Linux, macOS, FreeBSD or WSL2
-```bash 
-{
-  curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh;
-  source ~/.bashrc; `# if you installed to bashrc`
-  ghcup tui; 
-  `# use i to install and s to set`
-}
-```
 
-#### Your ghcup tui should look like the following (only the double green checkmarks are important)
-![ghcup_tui_example](doc/ghcup_tui_example.png)
+This utility can be installed using cabal
 
+    cabal build
+    cabal install
 
-## Installation Tips:
-```bash
-# Check your version of ghcup
-ghcup tui
+Run columnate
 
-# if you opened the repl ghci use :quit to exit
+    columnate < LICENSE
 
-```
+Or you can run it without installing
 
-## Running the program
+    cabal run < LICENSE
 
-#### convert a license to a column format
-```
-cabal run < LICENSE
-```
+## Running
 
-#### get only files from /etc ... but leave them in a column format
-```
-ls -p /etc | grep -v / | tr '\n' '\t' | fold -s > tmp; cabal run < tmp; rm tmp
-```
+To run it, pipe input into stdin:
 
-#### compare to `column -t` - which sometimes gives a column: line too long error.
-```
-ls -p /etc | grep -v / | tr '\n' '\t' | fold -s > tmp; column -t < tmp; rm tmp
-```
+   columnate < LICENSE
+
+More examples
+
+   # get only files from /etc ... but leave them in a column format
+   find /etc -maxdepth 1 -mindepth 1 -type f | tr '\n' '\t' | fold -s | columnate
+
+   # compare to `column -t` - which sometimes gives a column: line too long error.
+   find /etc -maxdepth 1 -mindepth 1 -type f | tr '\n' '\t' | fold -s | column -t
+
 
 ## Slides
-more useful links and information can be found in the presentation here: [slides](/doc/slides.md)
 
+More useful links and information can be found in the presentation here: [slides](/doc/slides.md)
