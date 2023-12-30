@@ -45,11 +45,11 @@ More examples
    find /etc -maxdepth 1 -mindepth 1 -type f | tr '\n' '\t' | fold -s | column -t
 
 
-## Building the Slides
+## Slides
 
-More useful links and information can be found in the [slides](/docs/slides.html).
+More useful links and information can be found in the [presentation](/docs/slides.html).
 
-The presentation can be build with [Pandoc](https://pandoc.org/)
+The slides can be build with [Pandoc](https://pandoc.org/)
 
     pandoc -t dzslides -s docs/slides.md -o docs/index.html
 
