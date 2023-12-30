@@ -32,7 +32,7 @@ Or you can run it without installing
 
 ## Running
 
-To run it, pipe input into stdin:
+To run it, pipe input into stdin
 
    columnate < LICENSE
 
@@ -45,6 +45,14 @@ More examples
    find /etc -maxdepth 1 -mindepth 1 -type f | tr '\n' '\t' | fold -s | column -t
 
 
-## Slides
+## Building the Slides
 
-More useful links and information can be found in the presentation here: [slides](/doc/slides.md)
+More useful links and information can be found in the [slides](/doc/slides.md).
+
+The presentation can be build with [Pandoc](https://pandoc.org/)
+
+    pandoc -t dzslides -s doc/slides.md -o doc/slides.html
+
+Open the presentation with your favorite browser
+
+    xdg-open doc/slides.html
